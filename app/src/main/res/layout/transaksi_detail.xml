@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/registation"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/user"
+            android:layout_margin="10dp"
+            android:alpha="0.7"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/tvbackground"
+            android:drawableLeft="@drawable/ic_account"
+            android:drawablePadding="6dp"
+            android:fontFamily="@font/cabin"
+            android:gravity="center|left"
+            android:paddingLeft="4dp"
+            android:text="Nama Pemilik"
+            android:textColor="#c8000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/tvbackground"
+            android:drawableLeft="@drawable/ic_email_black"
+            android:drawablePadding="4dp"
+            android:fontFamily="@font/cabin"
+            android:gravity="center|left"
+            android:paddingLeft="6dp"
+            android:text="Email"
+            android:textColor="#c8000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/notelp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/tvbackground"
+            android:drawableLeft="@drawable/ic_call"
+            android:drawablePadding="6dp"
+            android:fontFamily="@font/cabin"
+            android:gravity="center|left"
+            android:paddingLeft="4dp"
+            android:text="No Telp"
+            android:textColor="#c8000000"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/jenis"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/tvbackground"
+            android:drawableLeft="@drawable/ic_laptop"
+            android:drawablePadding="6dp"
+            android:fontFamily="@font/cabin"
+            android:gravity="center|left"
+            android:paddingLeft="4dp"
+            android:text="Nama Laptop"
+            android:textColor="#c8000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/tvbackground"
+            android:drawablePadding="6dp"
+            android:fontFamily="@font/cabin"
+            android:padding="8dp"
+            android:text="Deskripsi"
+            android:inputType="textMultiLine"
+            android:textColor="#c8000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/tvbackground"
+            android:drawableLeft="@drawable/ic_toys"
+            android:drawablePadding="6dp"
+            android:fontFamily="@font/cabin"
+            android:gravity="center|left"
+            android:paddingLeft="4dp"
+            android:text="Status"
+            android:textColor="#c8000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/konfirmasi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="#2962ff"
+            android:fontFamily="@font/roboto_condensed_regular"
+            android:text="Konfirmasi Servis"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
