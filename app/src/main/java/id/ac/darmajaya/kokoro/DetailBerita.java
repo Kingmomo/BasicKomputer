@@ -17,8 +17,8 @@ public class DetailBerita extends AppCompatActivity {
         setContentView(R.layout.detail_activity);
         String gambarr = getIntent().getStringExtra("GAMBAR");
         String judul = getIntent().getStringExtra("JUDUL");
-        String deskripsi = getIntent().getStringExtra("DESKRIPSI");
 
+        String deskripsi = getIntent().getStringExtra("DESKRIPSI");
         TextView deskripsii = (TextView) findViewById(R.id.deskripsi);
         ImageView gambar = (ImageView) findViewById(R.id.gambar);
 

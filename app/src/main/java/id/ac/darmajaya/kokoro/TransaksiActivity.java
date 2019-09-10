@@ -112,10 +112,6 @@ public class TransaksiActivity extends AppCompatActivity {
             }
         });
 
-
-
-
-
     }
 
     private void firebaseUserSearch(String searchText) {
@@ -152,6 +148,7 @@ public class TransaksiActivity extends AppCompatActivity {
                         intent.putExtra("TELPON", model.getTelpon());
                         intent.putExtra("NOTRANSAKSI", model.getNo_transaksi());
                         intent.putExtra("KETERANGAN", model.getKeterangan());
+                        intent.putExtra("NOMINAL", model.getBiaya());
                         startActivity(intent);
 
                     }

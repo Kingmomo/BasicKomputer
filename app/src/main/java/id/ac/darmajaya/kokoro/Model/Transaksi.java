@@ -10,12 +10,13 @@ public class Transaksi {
     private String setuju;
     private String telpon;
     private String token;
+    private String biaya;
 
-    public  Transaksi (){
 
+    public Transaksi() {
     }
 
-    public Transaksi(String barang, String detail, String email, String keterangan, String nama, String no_transaksi, String setuju, String telpon, String token) {
+    public Transaksi(String barang, String detail, String email, String keterangan, String nama, String no_transaksi, String setuju, String telpon, String token, String biaya) {
         this.barang = barang;
         this.detail = detail;
         this.email = email;
@@ -25,6 +26,7 @@ public class Transaksi {
         this.setuju = setuju;
         this.telpon = telpon;
         this.token = token;
+        this.biaya = biaya;
     }
 
     public String getBarang() {
@@ -97,5 +99,13 @@ public class Transaksi {
 
     public void setToken(String token) {
         this.token = token;
+    }
+
+    public String getBiaya() {
+        return biaya;
+    }
+
+    public void setBiaya(String biaya) {
+        this.biaya = biaya;
     }
 }

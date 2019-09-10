@@ -21,7 +21,7 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/user"
+            android:src="@drawable/logo"
             android:layout_margin="10dp"
             android:alpha="0.7"
             android:layout_gravity="center"/>
@@ -86,6 +86,22 @@
             android:text="Nama Laptop"
             android:textColor="#c8000000"
             android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/nominal"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/tvbackground"
+            android:drawableLeft="@drawable/ic_attach_money"
+            android:drawablePadding="6dp"
+            android:fontFamily="@font/cabin"
+            android:gravity="center|left"
+            android:paddingLeft="4dp"
+            android:text="Nominal"
+            android:textColor="#c8000000"
+            android:textSize="16sp" />
+
 
         <TextView
             android:id="@+id/deskripsi"

@@ -216,9 +216,11 @@ public class BeritaActivity extends AppCompatActivity {
 
         public void setImage(String image) {
             ImageView gambar = mView.findViewById(R.id.media_image);
+            if(image != null){
             Picasso.get()
                     .load(image)
                     .into(gambar);
+            }
 
         }
 
